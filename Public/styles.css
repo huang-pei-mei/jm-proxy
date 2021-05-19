@@ -1,10 +1,12 @@
+
+
 .priceContainer {
   z-index: 2;
   top: 5%;
-  right: 5%;
+  right: 15%;
   position: absolute;
-  width: 30%;
   float: right;
+  clear: left;
 }
 
 .summaryContainer {
@@ -15,8 +17,29 @@
   margin-top: 5%;
 }
 
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
+@media only screen and (max-width: 960px) {
+
+  .reviewBody{
+    text-align: left;
+  }
+
+  .summaryContainer {
+    width: 90%;
+    margin-left: 5%;
+    align-self: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+  .priceContainer{
+    z-index: 2;
+    top: 80%;
+    right: 3%;
+    left: 3%;
+    margin: auto;
+    position: absolute;
+    margin-bottom: 10%;
+  }
+  #title-service{
+    top: 0;
   }
 }
