@@ -1,5 +1,22 @@
-#priceContainer {
+.priceContainer {
+  z-index: 2;
+  top: 5%;
+  right: 5%;
   position: absolute;
-  top: 0;
-  right: 50px;
+  width: 30%;
+  float: right;
+}
+
+.summaryContainer {
+  width: 70%;
+  margin-left: 16%;
+  align-self: center;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
 }
