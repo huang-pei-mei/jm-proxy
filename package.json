@@ -1,0 +1,23 @@
+{
+  "name": "jm-proxy",
+  "version": "1.0.0",
+  "description": "Audible Page",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huang-pei-mei/jm-proxy.git"
+  },
+  "author": "Jacob",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/huang-pei-mei/jm-proxy/issues"
+  },
+  "homepage": "https://github.com/huang-pei-mei/jm-proxy#readme",
+  "dependencies": {
+    "nodemon": "^2.0.7",
+    "path": "^0.12.7"
+  }
+}
