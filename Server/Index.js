@@ -3,16 +3,16 @@ const app = express();
 const port = 4400;
 const path = require('path');
 
-console.log(path.join(__dirname, '../Public/'));
-
 app.use(express.static(path.join(__dirname, '../Public')));
 
-
-app.get('/', (req, res) => {
-  res.send(200);
-})
-
-
+// app.all('*', (req, res, next) => {
+//   console.log('hi')
+//   let origin = req.get('origin');
+//   res.header('Access-Control-Allow-Origin', origin);
+//   res.header("Access-Control-Allow-Headers", "X-Requested-With");
+//   res.header('Access-Control-Allow-Headers', 'Content-Type');
+//   next();
+// });
 
 app.use(express.json());
 
