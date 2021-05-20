@@ -1,9 +1,14 @@
 
-
+.titleContainer {
+  width: 100%;
+}
+.background-ontainer {
+  width: 100%;
+}
 .priceContainer {
   z-index: 2;
   top: 5%;
-  right: 15%;
+  right: 12%;
   position: absolute;
   float: right;
   clear: left;
@@ -17,8 +22,58 @@
   margin-top: 5%;
 }
 
-@media only screen and (max-width: 960px) {
+@media (max-width: 1024px) {
+  .reviewBody{
+    text-align: left;
+  }
+  .summaryContainer {
+    width: 90%;
+    margin-left: 5%;
+    align-self: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+  .priceContainer{
+    z-index: 2;
+    top: 70%;
+    right: 3%;
+    left: 3%;
+    margin: auto;
+    position: absolute;
+    margin-bottom: 10%;
+  }
+  .titleContainer{
+    top: 0;
+  }
+}
+@media (max-width: 960px) {
+  .reviewBody{
+    text-align: left;
+  }
+  .summaryContainer {
+    width: 90%;
+    margin-left: 5%;
+    align-self: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+  .priceContainer{
+    z-index: 2;
+    top: 70%;
+    right: 3%;
+    left: 3%;
+    margin: auto;
+    position: absolute;
+    margin-bottom: 10%;
+  }
+  .titleContainer{
+    top: 0;
+  }
+}
 
+
+@media (max-width: 960px) and
+        (max-height: 740px) {
   .reviewBody{
     text-align: left;
   }
@@ -39,7 +94,61 @@
     position: absolute;
     margin-bottom: 10%;
   }
-  #title-service{
+  .titleContainer{
+    top: 0;
+  }
+}
+
+@media (max-width: 960px) and
+        (max-height: 659px) {
+  .reviewBody{
+    text-align: left;
+  }
+
+  .summaryContainer {
+    width: 90%;
+    margin-left: 5%;
+    align-self: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+  .priceContainer{
+    z-index: 2;
+    top: 85%;
+    right: 3%;
+    left: 3%;
+    margin: auto;
+    position: absolute;
+    margin-bottom: 10%;
+  }
+  .titleContainer{
+    top: 0;
+  }
+}
+
+@media (max-width: 960px) and
+        (max-height: 550px) {
+  .reviewBody{
+    text-align: left;
+  }
+
+  .summaryContainer {
+    width: 90%;
+    margin-left: 5%;
+    align-self: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+  .priceContainer{
+    z-index: 2;
+    top: 100%;
+    right: 3%;
+    left: 3%;
+    margin: auto;
+    position: absolute;
+    margin-bottom: 10%;
+  }
+  .titleContainer{
     top: 0;
   }
 }
