@@ -2,6 +2,60 @@ const express = require('express')
 const app = express();
 const port = 4400;
 const path = require('path');
+const axios = require('axios');
+
+
+app.get('/reviews/:bookId', (req, res) => {
+
+  axios.get(`http://localhost:4000${req.url}`)
+  .then((response) => {
+    res.status(202).json(response.data);
+  })
+  .catch((error) => {
+    console.log(error);
+  });
+});
+
+app.get('/api/price/:bookId(\\d+)', (req, res) => {
+  axios.get(`http://localhost:3000${req.url}`)
+  .then((response) => {
+    res.status(202).json(response.data);
+  })
+  .catch((error) => {
+    console.log(error);
+  });
+});
+
+app.get('/api/price/:bookId(\\d+)', (req, res) => {
+  axios.get(`http://localhost:3000${req.url}`)
+  .then((response) => {
+    res.status(202).json(response.data);
+  })
+  .catch((error) => {
+    console.log(error);
+  });
+});
+
+app.get('/api/book/:id', (req, res) => {
+  axios.get(`http://localhost:2002${req.url}`)
+  .then((response) => {
+    res.status(202).json(response.data);
+  })
+  .catch((error) => {
+    console.log(error);
+  });
+})
+
+
+app.get('/api/summary/:bookId', (req, res) => {
+  axios.get(`http://localhost:1220${req.url}`)
+  .then((response) => {
+    res.status(202).json(response.data);
+  })
+  .catch((error) => {
+    console.log(error);
+  });
+})
 
 app.use(express.static(path.join(__dirname, '../Public')));
 
