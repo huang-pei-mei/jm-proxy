@@ -22,7 +22,9 @@
   margin-top: 5%;
 }
 
-@media (max-width: 1024px) {
+
+@media (max-width: 960px) {
+
   .reviewBody{
     text-align: left;
   }
@@ -46,29 +48,29 @@
     top: 0;
   }
 }
-@media (max-width: 960px) {
 
-  .reviewBody{
-    text-align: left;
-  }
-  .summaryContainer {
-    width: 90%;
-    margin-left: 5%;
-    align-self: center;
-    margin-bottom: 5%;
-    margin-top: 5%;
-  }
-  .priceContainer{
+@media (max-width: 768px) and
+        (max-height: 1024px) {
+          .priceContainer{
+            z-index: 2;
+            top: 60%;
+            right: 3%;
+            left: 3%;
+            margin: auto;
+            position: absolute;
+            margin-bottom: 10%;
+          }
+}
+
+@media (max-height: 880px) and (max-width: 500px) {
+  .priceContainer {
     z-index: 2;
-    top: 75%;
+    top: 73%;
     right: 3%;
     left: 3%;
     margin: auto;
     position: absolute;
     margin-bottom: 10%;
-  }
-  .titleContainer{
-    top: 0;
   }
 }
 
@@ -88,7 +90,7 @@
   }
   .priceContainer{
     z-index: 2;
-    top: 80%;
+    top: 83%;
     right: 3%;
     left: 3%;
     margin: auto;
