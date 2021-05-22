@@ -2,7 +2,7 @@
 .titleContainer {
   width: 100%;
 }
-.background-ontainer {
+.background-container {
   width: 100%;
 }
 .priceContainer {
@@ -25,9 +25,9 @@
 
 @media (max-width: 960px) {
 
-  .reviewBody{
+  /* .reviewBody{
     text-align: left;
-  }
+  } */
   .summaryContainer {
     width: 90%;
     margin-left: 5%;
