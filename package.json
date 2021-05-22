@@ -4,9 +4,10 @@
   "description": "Audible Page",
   "main": "index.js",
   "scripts": {
+    "server": "nodemon Server/Index.js",
     "test": "test",
     "deploy": "aws s3 sync Public/ s3://fec.audible.productpage",
-    "grunt": "grunt grunt-s3"
+    "grunt": "grunt"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,7 @@
     "path": "^0.12.7"
   },
   "devDependencies": {
+    "grunt-aws": "^0.7.1",
     "grunt-contrib-jshint": "^3.0.0",
     "grunt-s3": "^0.2.0-alpha.3"
   }

@@ -1,30 +1,51 @@
 module.exports = function (grunt) {
 
   grunt.initConfig({
-    s3: {
+    aws: grunt.file.readJSON('grunt-aws.json'),
+      s3: {
       options: {
-        key: './config.keys.AccessKeyID',
-        secret: './config.keys.SecretAccessKey',
-        bucket: './config.keys.AWSBucket',
-        access: 'public-read',
-        headers: {
-          // Two Year cache policy (1000 * 60 * 60 * 24 * 730)
-          "Cache-Control": "max-age=630720000, public",
-          "Expires": new Date(Date.now() + 63072000000).toUTCString()
-        }
+        accessKeyId: "<%= aws.key %>",
+        secretAccessKey: "<%= aws.secret %>",
+        bucket: "<%= aws.bucket %>"
       },
-
-      sync: [
-        {
-          // only upload this document if it does not exist already
-          src: 'Index.html',
-          options: { gzip: true }
-        },
-      ]
+      build: {
+        cwd: "../price-service/public",
+        src: "**",
+        dest: "Price/"
+      },
+      build: {
+        cwd: "../title-service/public",
+        src: "**",
+        dest: "Title/"
+      },
+      build: {
+        cwd: "../FEC-Publishers-Summary/compiled/client/dist/",
+        src: "**",
+        dest: "Summary/"
+      },
+      specificFiles: {
+        files: [{
+          src: "Public/Index.html",
+          dest: "Proxy/Index.html"
+        },{
+          src: "Public/styles.css",
+          dest: "Proxy/proxyStyles.css"
+        }, {
+          src: "../title-service/public/title-service.js",
+          dest: "Title/title-service.js"
+        }, {
+          src: "../reviews/dist/reviews.js",
+          dest: "Reviews/reviews.js"
+        }, {
+          src: "../FEC-Publishers-Summary/compiled/client/dist/summary.js",
+          dest: "Summary/summary.js"
+        }]
+      }
     }
   });
 
-  grunt.loadNpmTasks('grunt-s3');
+
+  grunt.loadNpmTasks('grunt-aws');
   grunt.registerTask('default', ['s3']);
 
 }

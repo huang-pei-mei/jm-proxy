@@ -1,4 +1,7 @@
 Bundles/
-notes.js
-config.js
-Gruntfile.js
+# notes.js
+# config.js
+Gruntfile.js/
+*.js
+*.json
+node_modules/
