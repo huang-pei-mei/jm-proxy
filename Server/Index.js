@@ -6,7 +6,8 @@ const axios = require('axios');
 
 
 app.get('/reviews/:bookId', (req, res) => {
-  res.set({'Access-Control-Allow-Origin' : 'https://s3-us-west-1.amazonaws.com'});
+  console.log(req.hreaders);
+  res.set({'Access-Control-Allow-Origin' : '*'});
   // res.set({'Access-Control-Allow-Origin': 'http://localhost:4000'})
   axios.get(`http://localhost:4000${req.url}`)
   .then((response) => {
