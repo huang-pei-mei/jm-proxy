@@ -1,10 +1,4 @@
-Bundles/
-# notes.js
-# config.js
-Gruntfile.js/
-*.js
 *.json
 node_modules/
-
 ##Keyfiles
 *.pem

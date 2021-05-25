@@ -230,7 +230,7 @@ html {
    }
 
    .publisher-summary  {
-    color: # rgba(20,20,20,.65);
+    color: rgba(20,20,20,.65);
     display: flex;
     font-family:  sans-serif, "Audible Sans" Arial, sans-serif;
     font-size: 14px;
