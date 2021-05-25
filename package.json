@@ -1,0 +1,34 @@
+{
+  "name": "jm-proxy",
+  "version": "1.0.0",
+  "description": "Audible Page",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon Server/Index.js",
+    "test": "test",
+    "deploy": "aws s3 sync Public/ s3://fec.audible.productpage",
+    "grunt": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huang-pei-mei/jm-proxy.git"
+  },
+  "author": "Jacob",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/huang-pei-mei/jm-proxy/issues"
+  },
+  "homepage": "https://github.com/huang-pei-mei/jm-proxy#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "default": "^0.1.1",
+    "grunt": "^1.4.0",
+    "nodemon": "^2.0.7",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "grunt-aws": "^0.7.1",
+    "grunt-contrib-jshint": "^3.0.0",
+    "grunt-s3": "^0.2.0-alpha.3"
+  }
+}
