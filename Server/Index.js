@@ -81,5 +81,5 @@ app.use(express.json());
 
 
 app.listen(port, () => {
-  console.log(`Audible title service listening at http://localhost:${port}`);
+  console.log(`Audible title service listening at ${port}`);
 });
