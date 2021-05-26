@@ -70,7 +70,7 @@ app.get('/api/summary/:bookId', (req, res) => {
 
 
 
-app.use(express.static(path.join(__dirname, '../Public')));
+app.use(express.static(path.join(__dirname, '..', 'Public')));
 // app.all('*', (req, res, next) => {
 //   console.log('hi')
 //   let origin = req.get('origin');
@@ -85,6 +85,6 @@ app.use(express.json());
 
 
 app.listen(port, () => {
-  
+
   console.log(`Audible title service listening at ${port}`);
 });
