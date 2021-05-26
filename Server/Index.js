@@ -1,14 +1,18 @@
 const express = require('express')
 const app = express();
-const port = 4400;
+const port = 4001;
 const path = require('path');
 const axios = require('axios');
 
-
+// app.get('/', (req, res) => {
+//   res.send('hi');
+// })
 app.get('/reviews/:bookId', (req, res) => {
-  res.set({'Access-Control-Allow-Origin' : 'https://s3-us-west-1.amazonaws.com'});
+  console.log(req.headers);
+  res.set({'Access-Control-Allow-Origin' : '*'});
   // res.set({'Access-Control-Allow-Origin': 'http://localhost:4000'})
-  axios.get(`http://localhost:4000${req.url}`)
+
+  axios.get(`http://52.53.198.130:4000${req.url}`)
   .then((response) => {
     res.status(202).json(response.data);
   })
@@ -64,8 +68,8 @@ app.get('/api/summary/:bookId', (req, res) => {
   });
 })
 
-app.use(express.static(path.join(__dirname, '../Public')));
 
+app.use(express.static(path.join(__dirname, '../Public')));
 // app.all('*', (req, res, next) => {
 //   console.log('hi')
 //   let origin = req.get('origin');
@@ -79,7 +83,6 @@ app.use(express.json());
 
 
 
-
 app.listen(port, () => {
-  console.log(`Audible title service listening at http://localhost:${port}`);
+  console.log(`Audible title service listening at ${port}`);
 });
