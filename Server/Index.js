@@ -4,9 +4,9 @@ const port = 4001;
 const path = require('path');
 const axios = require('axios');
 
-app.get('/', (req, res) => {
-  res.send('hi');
-})
+// app.get('/', (req, res) => {
+//   res.send('hi');
+// })
 app.get('/reviews/:bookId', (req, res) => {
   console.log(req.headers);
   res.set({'Access-Control-Allow-Origin' : '*'});
@@ -67,7 +67,7 @@ app.get('/api/summary/:bookId', (req, res) => {
     console.log(error);
   });
 })
-
+console.log(path.join(__dirname, '../Public'));
 app.use(express.static(path.join(__dirname, '../Public')));
 
 // app.all('*', (req, res, next) => {
