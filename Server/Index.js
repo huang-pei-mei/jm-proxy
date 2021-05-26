@@ -67,8 +67,11 @@ app.get('/api/summary/:bookId', (req, res) => {
     console.log(error);
   });
 })
-console.log(path.join(__dirname, '../Public'));
-app.use(express.static(path.join(__dirname, '../Public')));
+app.get('/', (req, res) => {
+  console.log(path.join(__dirname, '../Public'));
+  app.use(express.static(path.join(__dirname, '../Public')));
+
+})
 
 // app.all('*', (req, res, next) => {
 //   console.log('hi')
