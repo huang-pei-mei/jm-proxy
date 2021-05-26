@@ -9,7 +9,7 @@ app.get('/reviews/:bookId', (req, res) => {
   console.log(req.hreaders);
   res.set({'Access-Control-Allow-Origin' : '*'});
   // res.set({'Access-Control-Allow-Origin': 'http://localhost:4000'})
-  axios.get(`http://localhost:4000${req.url}`)
+  axios.get(`http://52.53.198.130:4000${req.url}`);
   .then((response) => {
     res.status(202).json(response.data);
   })

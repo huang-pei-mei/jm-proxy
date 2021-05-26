@@ -19,4 +19,7 @@
 //
 //added aschales summary data css into my own proxy service css
 
+//use sudo nano to make local changes
+
 //
+
