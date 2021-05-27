@@ -7,7 +7,7 @@ const axios = require('axios');
 
 app.get('/reviews/:bookId', (req, res) => {
   console.log(req.headers);
-  res.set({'Access-Control-Allow-Origin' : '54.219.131.175:4001'});
+  res.set({'Access-Control-Allow-Origin' : 'http://54.219.131.175:4001'});
   axios.get(`http://52.53.198.130:4000${req.url}`)
   .then((response) => {
     res.status(202).json(response.data);
@@ -17,17 +17,7 @@ app.get('/reviews/:bookId', (req, res) => {
   });
 });
 
-app.get('/api/price/:bookId(\\d+)', (req, res) => {
-  res.set({'Access-Control-Allow-Origin' : 'https://s3-us-west-1.amazonaws.com'});
 
-  axios.get(`http://localhost:3000${req.url}`)
-  .then((response) => {
-    res.status(202).json(response.data);
-  })
-  .catch((error) => {
-    console.log(error);
-  });
-});
 
 app.get('/api/price/:bookId(\\d+)', (req, res) => {
   res.set({'Access-Control-Allow-Origin' : 'https://s3-us-west-1.amazonaws.com'});
@@ -41,7 +31,7 @@ app.get('/api/price/:bookId(\\d+)', (req, res) => {
   });
 });
 
-app.get('/api/book/:id', (req, res) => {
+app.get('/api/title/:bookId', (req, res) => {
   res.set({'Access-Control-Allow-Origin' : 'https://s3-us-west-1.amazonaws.com'});
   axios.get(`http://localhost:2002${req.url}`)
   .then((response) => {
