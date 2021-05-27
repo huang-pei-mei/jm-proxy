@@ -13,16 +13,6 @@ module.exports = function (grunt) {
         src: "**",
         dest: "Price/"
       },
-      build: {
-        cwd: "../title-service/public",
-        src: "**",
-        dest: "Title/"
-      },
-      build: {
-        cwd: "../FEC-Publishers-Summary/compiled/client/dist/",
-        src: "**",
-        dest: "Summary/"
-      },
       specificFiles: {
         files: [{
           src: "Public/Index.html",
