@@ -2,3 +2,5 @@
 node_modules/
 ##Keyfiles
 *.pem
+
+.notes.js

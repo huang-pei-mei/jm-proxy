@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express();
-const port = 4001;
+const port = 4000;
 const path = require('path');
 const axios = require('axios');
 
@@ -8,7 +8,7 @@ const axios = require('axios');
 app.get('/reviews/:bookId', (req, res) => {
   console.log(req.headers);
   res.set({'Access-Control-Allow-Origin' : 'http://54.219.131.175:4001'});
-  axios.get(`http://52.53.198.130:4000${req.url}`)
+  axios.get(`http://52.53.198.130:4001${req.url}`)
   .then((response) => {
     res.status(202).json(response.data);
   })
