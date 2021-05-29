@@ -3,6 +3,7 @@ const app = express();
 const port = 4000;
 const path = require('path');
 const axios = require('axios');
+const request = require('request');
 
 
 app.get('/reviews/:bookId', (req, res) => {
@@ -54,8 +55,17 @@ app.get('/api/summary/:bookId', (req, res) => {
   });
 })
 
-app.get('/books/:bookId', (req, res) => {
-  res.redirect('/');
+// app.get('/books/:bookId', (req, res) => {
+//   res.redirect('/');
+// });
+
+app.route('/books/:bookId').get(function(req, res, next) {
+
+  request.get('/', function(err, response, body) {
+    if (!err) {
+      req.send(body);
+    }
+  });
 });
 
 app.use(express.static(path.join(__dirname, '..', 'Public')));
