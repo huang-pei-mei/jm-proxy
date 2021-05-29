@@ -9,7 +9,7 @@ app.get('/reviews/:bookId', (req, res) => {
   console.log(req.headers);
   res.set({'Access-Control-Allow-Origin' : 'http://54.153.95.228:4000'});
   console.log(req.url)
-  axios.get(`http://172.31.7.4:4001${req.url}`)
+  axios.get(`http://54.67.73.166:4001${req.url}`)
   .then((response) => {
     res.status(202).json(response.data);
   })
@@ -55,8 +55,9 @@ app.get('/api/summary/:bookId', (req, res) => {
 })
 
 
-
-app.use(express.static(path.join(__dirname, '..', 'Public')));
+app.get('/books/:bookId', (req, res) => {
+  app.use(express.static(path.join(__dirname, '..', 'Public')));
+})
 
 
 app.use(express.json());
