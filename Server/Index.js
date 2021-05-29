@@ -6,11 +6,10 @@ const axios = require('axios');
 const request = require('request');
 
 
-app.get('/reviews/:bookId', (req, res) => {
-  console.log(req.headers);
+app.get('/books/:id/reviews', (req, res) => {
+  console.log(req.params.id);
   res.set({'Access-Control-Allow-Origin' : 'http://54.153.95.228:4000'});
-  console.log(req.url)
-  axios.get(`http://54.67.73.166:4001${req.url}`)
+  axios.get(`http://54.67.73.166:4001/books/:id/reviews`)
   .then((response) => {
     res.status(202).json(response.data);
   })
@@ -59,13 +58,11 @@ app.get('/api/summary/:bookId', (req, res) => {
 //   res.redirect(301, '/');
 // });
 
-app.use('books/:bookId', express.static(path.join(__dirname, '..', 'Public')));
+app.use('/books/:bookId', express.static(path.join(__dirname, '..', 'Public')));
 
 // app.get('/', (req, res) => {
 //   res.redirect('/book/:bookId')
 // })
-
-
 
 app.use(express.json());
 
