@@ -56,11 +56,14 @@ app.get('/api/summary/:bookId', (req, res) => {
 })
 
 app.get('/books/:bookId', (req, res) => {
-  express.static(path.join(__dirname, '..', 'Public'));
+  res.redirect(301, '/');
 });
 
-app.use(express.static(path.join(__dirname, '..', 'Public')));
+app.use('books/:bookId', express.static(path.join(__dirname, '..', 'Public')));
 
+// app.get('/', (req, res) => {
+//   res.redirect('/book/:bookId')
+// })
 
 
 
