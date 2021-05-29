@@ -54,10 +54,12 @@ app.get('/api/summary/:bookId', (req, res) => {
   });
 })
 
-
 app.get('/books/:bookId', (req, res) => {
-  app.use(express.static(path.join(__dirname, '..', 'Public')));
-})
+  res.redirect('/');
+});
+
+app.use(express.static(path.join(__dirname, '..', 'Public')));
+
 
 
 app.use(express.json());
