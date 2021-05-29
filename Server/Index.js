@@ -55,20 +55,12 @@ app.get('/api/summary/:bookId', (req, res) => {
   });
 })
 
-// app.get('/books/:bookId', (req, res) => {
-//   res.redirect('/');
-// });
-
-app.route('/books/:bookId').get(function(req, res, next) {
-
-  request.get('/', function(err, response, body) {
-    if (!err) {
-      req.send(body);
-    }
-  });
+app.get('/books/:bookId', (req, res) => {
+  express.static(path.join(__dirname, '..', 'Public'));
 });
 
 app.use(express.static(path.join(__dirname, '..', 'Public')));
+
 
 
 
