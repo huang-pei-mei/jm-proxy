@@ -7,7 +7,7 @@ const request = require('request');
 
 
 app.get('/books/:id/reviews', (req, res) => {
-  res.set({'Access-Control-Allow-Origin' : 'http://54.153.95.228:4000'});
+  // res.set({'Access-Control-Allow-Origin' : 'http://54.153.95.228:4000'});
   //http://localhost:4001/books/${req.params.id}/reviews
   axios.get(`http://ec2-54-183-2-218.us-west-1.compute.amazonaws.com:4001/books/${req.params.id}/reviews`, {headers: req.headers})
   .then((response) => {
@@ -22,7 +22,7 @@ app.get('/books/:id/reviews', (req, res) => {
 
 app.get('/books/:id/api/price/', (req, res) => {
   console.log(req.headers);
-  res.set({'Access-Control-Allow-Origin' : 'https://s3-us-west-1.amazonaws.com'});
+  // res.set({'Access-Control-Allow-Origin' : 'https://s3-us-west-1.amazonaws.com'});
   // console.log('req.url', req.url)
   //http://localhost:3000${req.url}
   axios.get(`http://ec2-34-221-235-141.us-west-2.compute.amazonaws.com:3000/api/price/${req.params.id}`, {headers: req.headers})
@@ -36,8 +36,8 @@ app.get('/books/:id/api/price/', (req, res) => {
 
 app.get('/books/:id/api/book', (req, res) => {
 //http://localhost:2002${req.url}
-
-  res.set({'Access-Control-Allow-Origin' : 'https://s3-us-west-1.amazonaws.com'});
+  console.log('title', req.cors);
+  // res.set({'Access-Control-Allow-Origin' : 'https://s3-us-west-1.amazonaws.com'});
   axios.get(`http://13.57.14.144:2002/api/book/${req.params.id}`, {headers: req.headers})
   .then((response) => {
     res.status(202).json(response.data);
@@ -50,6 +50,7 @@ app.get('/books/:id/api/book', (req, res) => {
 
 app.get('/books/:id/api/summary', (req, res) => {
   //http://localhost:1220${req.url}
+  console.log('summary', req.headers);
   axios.get(`http://ec2-18-188-135-5.us-east-2.compute.amazonaws.com:1220/api/summary/${req.params.id}`, {headers: req.headers})
   .then((response) => {
     res.status(202).json(response.data);
@@ -61,8 +62,8 @@ app.get('/books/:id/api/summary', (req, res) => {
 
 app.get('/books/:id/api/aggReview', (req, res) => {
   //http://localhost:2880${req.url}
-  console.log(req.headers);
-  res.set({'Access-Control-Allow-Origin' : 'https://s3-us-west-1.amazonaws.com'})
+  console.log('aggeReview', req.headers);
+  // res.set({'Access-Control-Allow-Origin' : 'https://s3-us-west-1.amazonaws.com'})
   axios.get(`http://ec2-18-220-21-137.us-east-2.compute.amazonaws.com:2880/api/aggReview/${req.params.id}`, {headers: req.headers})
   .then((response) => {
     res.status(202).json(response.data);
