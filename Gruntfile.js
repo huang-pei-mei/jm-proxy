@@ -33,7 +33,7 @@ module.exports = function (grunt) {
           src: "../reviews/dist/reviews.js",
           dest: "Reviews/reviews.js"
         }, {
-          src: "../FEC-Publishers-Summary/compiled/client/dist/summary.js",
+          src: "../FEC-Publishers-Summary/public/summary.js",
           dest: "Summary/summary.js"
         }]
       }
