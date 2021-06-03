@@ -7,7 +7,7 @@ const request = require('request');
 
 
 app.get('/books/:id/reviews', (req, res) => {
-  res.set({'Access-Control-Allow-Origin': 'http://ec2-54-153-95-228.us-west-1.compute.amazonaws.com:4000'})
+  res.set({'Access-Control-Allow-Origin': 'http://ec2-54-153-95-228.us-west-1.compute.amazonaws.com:4002'})
   axios.get(`http://ec2-54-183-2-218.us-west-1.compute.amazonaws.com:4001/books/${req.params.id}/reviews`, {headers: req.headers})
   .then((response) => {
     res.status(202).json(response.data);
