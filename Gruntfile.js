@@ -8,12 +8,12 @@ module.exports = function (grunt) {
         bucket: "<%= aws.bucket %>"
       },
        build: {
-        //  cwd: "../price-service/public",
-        //  src: "**",
-        //  dest: "Price/",
-         cwd: "../FEC-Agg.review/public",
+         cwd: "../price-service/public",
          src: "**",
-         dest: "aggReview/"
+         dest: "Price/",
+        //  cwd: "../FEC-Agg.review/public",
+        //  src: "**",
+        //  dest: "aggReview/"
       },
 
       specificFiles: {
