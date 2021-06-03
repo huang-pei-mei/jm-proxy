@@ -1,33 +1,29 @@
 module.exports = function (grunt) {
-
   grunt.initConfig({
     aws: grunt.file.readJSON('grunt-aws.json'),
-      s3: {
+    s3: {
       options: {
         accessKeyId: "<%= aws.key %>",
         secretAccessKey: "<%= aws.secret %>",
         bucket: "<%= aws.bucket %>"
       },
-      build: {
-        cwd: "../price-service/public",
-        src: "**",
-        dest: "Price/"
+       build: {
+         cwd: "../price-service/public",
+         src: "**",
+         dest: "Price/",
+         build: {
+        //  cwd: "../FEC-Agg.review/public",
+        //  src: "**",
+        //  dest: "aggReview/"
+        },
       },
-      build: {
-        cwd: "../title-service/public",
-        src: "**",
-        dest: "Title/"
-      },
-      build: {
-        cwd: "../FEC-Publishers-Summary/compiled/client/dist/",
-        src: "**",
-        dest: "Summary/"
-      },
+
       specificFiles: {
-        files: [{
+        files: [
+        {
           src: "Public/Index.html",
           dest: "Proxy/Index.html"
-        },{
+        }, {
           src: "Public/styles.css",
           dest: "Proxy/proxyStyles.css"
         }, {
@@ -41,7 +37,8 @@ module.exports = function (grunt) {
           dest: "Summary/summary.js"
         }]
       }
-    }
+    },
+
   });
 
 

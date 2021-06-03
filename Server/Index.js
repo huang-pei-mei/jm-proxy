@@ -1,18 +1,15 @@
 const express = require('express')
 const app = express();
-const port = 4001;
+const port = 4000;
 const path = require('path');
 const axios = require('axios');
+const request = require('request');
 
-// app.get('/', (req, res) => {
-//   res.send('hi');
-// })
-app.get('/reviews/:bookId', (req, res) => {
-  console.log(req.headers);
-  res.set({'Access-Control-Allow-Origin' : '*'});
-  // res.set({'Access-Control-Allow-Origin': 'http://localhost:4000'})
 
-  axios.get(`http://52.53.198.130:4000${req.url}`)
+app.get('/books/:id/reviews', (req, res) => {
+  res.set({'Access-Control-Allow-Origin' : 'http://54.153.95.228:4000'});
+  //http://localhost:4001/books/${req.params.id}/reviews
+  axios.get(`http://ec2-54-183-2-218.us-west-1.compute.amazonaws.com:4001/books/${req.params.id}/reviews`, {headers: req.headers})
   .then((response) => {
     res.status(202).json(response.data);
   })
@@ -21,10 +18,13 @@ app.get('/reviews/:bookId', (req, res) => {
   });
 });
 
-app.get('/api/price/:bookId(\\d+)', (req, res) => {
+
+
+app.get('/books/:id/api/price/', (req, res) => {
   res.set({'Access-Control-Allow-Origin' : 'https://s3-us-west-1.amazonaws.com'});
-  // res.set({'Access-Control-Allow-Origin': 'http://localhost:4000'})
-  axios.get(`http://localhost:3000${req.url}`)
+  // console.log('req.url', req.url)
+  //http://localhost:3000${req.url}
+  axios.get(`http://ec2-34-221-235-141.us-west-2.compute.amazonaws.com:3000/api/price/${req.params.id}`, {headers: req.headers})
   .then((response) => {
     res.status(202).json(response.data);
   })
@@ -33,22 +33,11 @@ app.get('/api/price/:bookId(\\d+)', (req, res) => {
   });
 });
 
-app.get('/api/price/:bookId(\\d+)', (req, res) => {
-  res.set({'Access-Control-Allow-Origin' : 'https://s3-us-west-1.amazonaws.com'});
-  // res.set({'Access-Control-Allow-Origin': 'http://localhost:4000'})
-  axios.get(`http://localhost:3000${req.url}`)
-  .then((response) => {
-    res.status(202).json(response.data);
-  })
-  .catch((error) => {
-    console.log(error);
-  });
-});
+app.get('/books/:id/api/book', (req, res) => {
+//http://localhost:2002${req.url}
 
-app.get('/api/book/:id', (req, res) => {
   res.set({'Access-Control-Allow-Origin' : 'https://s3-us-west-1.amazonaws.com'});
-  // res.set({'Access-Control-Allow-Origin': 'http://localhost:4000'})
-  axios.get(`http://localhost:2002${req.url}`)
+  axios.get(`http://13.57.14.144:2002/api/book/${req.params.id}`, {headers: req.headers})
   .then((response) => {
     res.status(202).json(response.data);
   })
@@ -59,7 +48,8 @@ app.get('/api/book/:id', (req, res) => {
 
 
 app.get('/api/summary/:bookId', (req, res) => {
-  axios.get(`http://localhost:1220${req.url}`)
+  //http://localhost:1220${req.url}
+  axios.get(`http://localhost:1220${req.url}`, {headers: req.headers})
   .then((response) => {
     res.status(202).json(response.data);
   })
@@ -68,21 +58,24 @@ app.get('/api/summary/:bookId', (req, res) => {
   });
 })
 
+app.get('/api/aggReview/:bookId', (req, res) => {
+  //http://localhost:2880${req.url}
+  axios.get(`http://localhost:2880${req.url}`, {headers: req.headers})
+  .then((response) => {
+    res.status(202).json(response.data);
+  })
+  .catch((error) => {
+    console.log(error);
+  });
+})
 
-app.use(express.static(path.join(__dirname, '../Public')));
-// app.all('*', (req, res, next) => {
-//   console.log('hi')
-//   let origin = req.get('origin');
-//   res.header('Access-Control-Allow-Origin', origin);
-//   res.header("Access-Control-Allow-Headers", "X-Requested-With");
-//   res.header('Access-Control-Allow-Headers', 'Content-Type');
-//   next();
-// });
+app.use('/books/:bookId', express.static(path.join(__dirname, '..', 'Public')));
 
 app.use(express.json());
 
 
 
 app.listen(port, () => {
+
   console.log(`Audible title service listening at ${port}`);
 });
