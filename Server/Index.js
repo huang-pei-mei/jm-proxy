@@ -33,10 +33,11 @@ app.get('/books/:id/api/price/', (req, res) => {
   });
 });
 
-app.get('/api/book/:bookId', (req, res) => {
+app.get('books/:id/api/book', (req, res) => {
 //http://localhost:2002${req.url}
+
   res.set({'Access-Control-Allow-Origin' : 'https://s3-us-west-1.amazonaws.com'});
-  axios.get(`http://localhost:2002${req.url}`, {headers: req.headers})
+  axios.get(`http://13.57.14.144:2002/api/book/${req.params.id}`, {headers: req.headers})
   .then((response) => {
     res.status(202).json(response.data);
   })
