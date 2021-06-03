@@ -47,9 +47,9 @@ app.get('/books/:id/api/book', (req, res) => {
 })
 
 
-app.get('/api/summary/:bookId', (req, res) => {
+app.get('books/:id/api/summary', (req, res) => {
   //http://localhost:1220${req.url}
-  axios.get(`http://localhost:1220${req.url}`, {headers: req.headers})
+  axios.get(`http://ec2-18-188-135-5.us-east-2.compute.amazonaws.com:1220${req.params.id}`, {headers: req.headers})
   .then((response) => {
     res.status(202).json(response.data);
   })
