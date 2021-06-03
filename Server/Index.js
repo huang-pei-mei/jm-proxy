@@ -21,6 +21,7 @@ app.get('/books/:id/reviews', (req, res) => {
 
 
 app.get('/books/:id/api/price/', (req, res) => {
+  console.log(req.headers);
   res.set({'Access-Control-Allow-Origin' : 'https://s3-us-west-1.amazonaws.com'});
   // console.log('req.url', req.url)
   //http://localhost:3000${req.url}
