@@ -4,7 +4,7 @@
   <head>
     <title>Audible Proxy 1.0.0</title>
     <link rel="stylesheet" type="text/css" href="https://s3-us-west-1.amazonaws.com/fec.audible.productpage/Proxy/proxyStyles.css" />
-    <link rel="stylesheet" type="text/css" href="https://s3-us-west-1.amazonaws.com/fec.audible.productpage/Summary/styles.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="https://s3-us-west-1.amazonaws.com/fec.audible.productpage/Summary/styles.css" /> -->
     <link rel="stylesheet" type="text/css" href="https://s3-us-west-1.amazonaws.com/fec.audible.productpage/Price/priceStyles.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans" >
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli:400,900">
@@ -12,18 +12,41 @@
   </head>
 
   <body>
+    <div class="main-header">
+      <div class="header-container">
+        <div class="header-nav-mobile"><img src="https://hr-rpt-audible.s3-us-west-1.amazonaws.com/mobile_nav.png"></div>
+        <div class="header-logo-desktop"><img src="https://hr-rpt-audible.s3-us-west-1.amazonaws.com/logo.svg"></div>
+        <div class="search-box-mobile"><img src="https://hr-rpt-audible.s3-us-west-1.amazonaws.com/search.png"></div>
+        <div class="header-logo-mobile"><img width="100%" height="100%" src="https://hr-rpt-audible.s3-us-west-1.amazonaws.com/logo_mobile.png"></div>
+        <div class="right-side">
+           <a href='#'>Sign In</a>
+          <div class="search-box"><img src="https://hr-rpt-audible.s3-us-west-1.amazonaws.com/search-bar.png"></div>
+        </div>
+      </div>
+    </div>
+
     <div class="titleContainer" id="title-service"></div>
-    <div class="priceContainer" id="price-service"></div>
+    <!-- <div class="priceContainer" id="price-service"></div> -->
     <div class="summaryContainer" id="summary"></div>
+    <div id="aggReview"></div>
     <div id="reviews"></div>
 
 
   </body>
   <footer>
-  <script src='https://s3-us-west-1.amazonaws.com/fec.audible.productpage/Summary/summary.js'></script>
-  <script src='https://s3-us-west-1.amazonaws.com/fec.audible.productpage/Title/title-service.js'></script>
-  <script src='https://s3-us-west-1.amazonaws.com/fec.audible.productpage/Reviews/reviews.js'></script>
-  <script src='https://s3-us-west-1.amazonaws.com/fec.audible.productpage/Price/priceBundle.js'></script>
+    <script src='https://s3-us-west-1.amazonaws.com/fec.audible.productpage/Title/title-service.js'></script>
+    <script src='https://s3-us-west-1.amazonaws.com/fec.audible.productpage/Summary/summary.js'></script>
+    <script src='https://s3-us-west-1.amazonaws.com/fec.audible.productpage/Reviews/reviews.js'></script>
+    <script src='https://s3-us-west-1.amazonaws.com/fec.audible.productpage/aggReview/vendors-node_modules_react-star-ratings_build_index_js.aggReview.js'></script>
+    <script src='https://s3-us-west-1.amazonaws.com/fec.audible.productpage/aggReview/client_src_components_Review_jsx.aggReview.js'></script>
+    <script src='https://s3-us-west-1.amazonaws.com/fec.audible.productpage/aggReview/aggReview.js'></script>
+    <script>
+      const script = document.createElement('script');
+      script.src = 'https://s3-us-west-1.amazonaws.com/fec.audible.productpage/Price/priceBundle.js';
+      setTimeout(() => {
+        document.body.append(script);
+      }, 100);
+    </script>
 </footer>
 </html>
 

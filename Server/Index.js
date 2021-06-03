@@ -8,8 +8,9 @@ const request = require('request');
 
 app.get('/books/:id/reviews', (req, res) => {
   res.set({'Access-Control-Allow-Origin' : 'http://54.153.95.228:4000'});
-  console.log('hi');
-  axios.get(`http://54.67.73.166:4001/books/${req.params.id}/reviews`)
+  //http://localhost:4001/books/${req.params.id}/reviews
+  console.log('hello');
+  axios.get(`http://ec2-54-183-2-218.us-west-1.compute.amazonaws.com:4001/books/${req.params.id}/reviews`, {headers: req.headers})
   .then((response) => {
     res.status(202).json(response.data);
   })
@@ -20,10 +21,11 @@ app.get('/books/:id/reviews', (req, res) => {
 
 
 
-app.get('/api/price/:bookId(\\d+)', (req, res) => {
+app.get('/api/price/:bookId', (req, res) => {
   res.set({'Access-Control-Allow-Origin' : 'https://s3-us-west-1.amazonaws.com'});
-
-  axios.get(`http://localhost:3000${req.url}`)
+  console.log('heads', req.headers)
+  //http://localhost:3000${req.url}
+  axios.get(`http://localhost:3000${req.url}`, {headers: req.headers})
   .then((response) => {
     res.status(202).json(response.data);
   })
@@ -32,9 +34,10 @@ app.get('/api/price/:bookId(\\d+)', (req, res) => {
   });
 });
 
-app.get('/api/title/:bookId', (req, res) => {
+app.get('/api/book/:bookId', (req, res) => {
+//http://localhost:2002${req.url}
   res.set({'Access-Control-Allow-Origin' : 'https://s3-us-west-1.amazonaws.com'});
-  axios.get(`http://localhost:2002${req.url}`)
+  axios.get(`http://localhost:2002${req.url}`, {headers: req.headers})
   .then((response) => {
     res.status(202).json(response.data);
   })
@@ -45,7 +48,8 @@ app.get('/api/title/:bookId', (req, res) => {
 
 
 app.get('/api/summary/:bookId', (req, res) => {
-  axios.get(`http://localhost:1220${req.url}`)
+  //http://localhost:1220${req.url}
+  axios.get(`http://localhost:1220${req.url}`, {headers: req.headers})
   .then((response) => {
     res.status(202).json(response.data);
   })
@@ -54,15 +58,18 @@ app.get('/api/summary/:bookId', (req, res) => {
   });
 })
 
-// app.get('/books/:bookId', (req, res) => {
-//   res.redirect(301, '/');
-// });
+app.get('/api/aggReview/:bookId', (req, res) => {
+  //http://localhost:2880${req.url}
+  axios.get(`http://localhost:2880${req.url}`, {headers: req.headers})
+  .then((response) => {
+    res.status(202).json(response.data);
+  })
+  .catch((error) => {
+    console.log(error);
+  });
+})
 
 app.use('/books/:bookId', express.static(path.join(__dirname, '..', 'Public')));
-
-// app.get('/', (req, res) => {
-//   res.redirect('/book/:bookId')
-// })
 
 app.use(express.json());
 
