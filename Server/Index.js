@@ -33,7 +33,7 @@ app.get('/books/:id/api/price/', (req, res) => {
   });
 });
 
-app.get('books/:id/api/book', (req, res) => {
+app.get('/books/:id/api/book', (req, res) => {
 //http://localhost:2002${req.url}
 
   res.set({'Access-Control-Allow-Origin' : 'https://s3-us-west-1.amazonaws.com'});
