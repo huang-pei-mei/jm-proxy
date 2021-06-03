@@ -11,11 +11,9 @@ module.exports = function (grunt) {
         //  cwd: "../price-service/public",
         //  src: "**",
         //  dest: "Price/",
-
          cwd: "../FEC-Agg.review/public",
          src: "**",
          dest: "aggReview/"
-
       },
 
       specificFiles: {

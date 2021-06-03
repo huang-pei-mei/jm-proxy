@@ -60,7 +60,8 @@ app.get('/books/:id/api/summary', (req, res) => {
 
 app.get('/books/:id/api/aggReview', (req, res) => {
   //http://localhost:2880${req.url}
-  axios.get(`ec2-18-220-21-137.us-east-2.compute.amazonaws.com:2880`, {headers: req.headers})
+  console.log('aggReview')
+  axios.get(`ec2-18-220-21-137.us-east-2.compute.amazonaws.com:2880/api/aggReview/${req.params.id}`, {headers: req.headers})
   .then((response) => {
     res.status(202).json(response.data);
   })
