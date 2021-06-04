@@ -7,34 +7,56 @@ module.exports = function (grunt) {
         secretAccessKey: "<%= aws.secret %>",
         bucket: "<%= aws.bucket %>"
       },
-       build: {
-        //  cwd: "../price-service/public",
-        //  src: "**",
-        //  dest: "Price/",
+       aggReview: {
          cwd: "../FEC-Agg.review/public",
          src: "**",
          dest: "aggReview/"
       },
+       price: {
+        cwd: "../price-service/public",
+        src: "**",
+        dest: "Price/"
+       },
+       Proxy: {
+         cwd: "./Public",
+         src: "**",
+         dest: "Proxy/"
+       },
+       Title: {
+         cwd: "../title-service/public",
+         src: "**",
+         dest: "Title/"
+       },
+       Reviews: {
+         cwd: "../reviews/dist",
+         src: "**",
+         dest: "Reviews/",
+       },
+       Sumary: {
+         cwd: "../FEC-Publishers-Summary/public",
+         src: "**",
+         dest: "Summary/"
+       }
 
-      specificFiles: {
-        files: [
-        {
-          src: "Public/Index.html",
-          dest: "Proxy/index.html"
-        }, {
-          src: "Public/styles.css",
-          dest: "Proxy/proxyStyles.css"
-        }, {
-          src: "../title-service/public/title-service.js",
-          dest: "Title/title-service.js"
-        }, {
-          src: "../reviews/dist/reviews.js",
-          dest: "Reviews/reviews.js"
-        }, {
-          src: "../FEC-Publishers-Summary/public/summary.js",
-          dest: "Summary/summary.js"
-        }]
-      }
+      // specificFiles: {
+      //   files: [
+      //   {
+      //     src: "Public/Index.html",
+      //     dest: "Proxy/index.html"
+      //   }, {
+      //     src: "Public/styles.css",
+      //     dest: "Proxy/proxyStyles.css"
+      //   }, {
+      //     src: "../title-service/public/title-service.js",
+      //     dest: "Title/title-service.js"
+      //   }, {
+      //     src: "../reviews/dist/reviews.js",
+      //     dest: "Reviews/reviews.js"
+      //   }, {
+      //     src: "../FEC-Publishers-Summary/public/summary.js",
+      //     dest: "Summary/summary.js"
+      //   }]
+      // }
     },
 
   });
