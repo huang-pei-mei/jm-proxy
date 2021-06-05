@@ -1,4 +1,4 @@
-#Audible Product Page
+# Audible Product Page
 http://ec2-54-153-95-228.us-west-1.compute.amazonaws.com/books/2/
 
 https://media.giphy.com/media/e7Aj05bZYy4GRcxsEy/giphy.gif
@@ -8,6 +8,8 @@ Screenshots of Page:
 Desktop View:
 Title Bar:
 ![title bar](https://drive.google.com/file/d/1nk42PkqPFepTFOWgA3euSI22rftLa2Xo/view?usp=sharing)
+<img src="https://drive.google.com/file/d/1nk42PkqPFepTFOWgA3euSI22rftLa2Xo/view?usp=sharing" alt="My cool logo"/>
+
 Aggregate Reviews:
 ![aggregate reviews] (https://drive.google.com/file/d/1W-_xKtkfPGb_MWfelkovudrerH13f6zc/view?usp=sharing)
 Reviews:
