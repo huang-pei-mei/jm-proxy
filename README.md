@@ -8,7 +8,7 @@
 
 ### Title Bar
 
-1. ![title bar](./Pictures_and_Gifs/titleBar.png =250x250)
+1. ![title bar](./Pictures_and_Gifs/titleBar.png)
 
 
 ### Aggregate Reviews
