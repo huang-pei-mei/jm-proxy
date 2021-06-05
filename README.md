@@ -10,7 +10,6 @@
 
 1. ![title bar](./Pictures_and_Gifs/titleBar.png)
 
-<div style="width:100%;height:0;padding-bottom:63%;position:relative;"><iframe src="https://giphy.com/embed/y4LQJTXjNFsHhMnxfH" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/y4LQJTXjNFsHhMnxfH">via GIPHY</a></p>
 
 ### Aggregate Reviews
 
@@ -32,7 +31,7 @@ Phone View Reviews:
 
 Gifs of Page in Desktop View:
 Title Bar Gif:
-![giph of title with audio button] (https://media.giphy.com/media/y4LQJTXjNFsHhMnxfH/giphy.gif)
+![giph of title with audio button](./Pictures_and_Gifs/AnimatedGIF-downsized(1).gif)
 Title Bar Page:
 ![giph of scrolling on page desktop view] (https://media.giphy.com/media/uLHcWxOAYjxqMEhU7E/giphy.gif)
 Title Bar Reviews:
