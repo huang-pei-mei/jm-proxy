@@ -2,21 +2,7 @@
 
 [public ip](http://ec2-54-153-95-228.us-west-1.compute.amazonaws.com/books/2/)
 
-#### Gifs of Page:
 
-
-### Title Bar
-
-
-
-### Aggregate Reviews
-
-
-
-### Reviews
-
-
-### Screenshots of Page
 
 #### Title Bar
 <br />
@@ -28,19 +14,25 @@
 
 
 
-<br /> <br /><br /><br /><br /><br /><br />
-
-
-
-
 #### Aggregate Reviews
 <a href="url"><img src="Pictures_and_Gifs/aggregateReviewsPhoneView.png" align="left" height="400px" width="200px">
+
+
 <br /> <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 
 #### Reviews
 
-<a href="url"><img src="Pictures_and_Gifs/reviewsWithHeader.png" align="left" height="400px" width="200px"></a> <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<a href="url"><img src="Pictures_and_Gifs/reviewsWithHeader.png" align="left" height="400px" width="200px"></a>
+
+<a href="url"><img src="Pictures_and_Gifs/ReviewsDesktop.png" align="left" height="400px" width="200px"></a>
+
+<a href="url"><img src="" align="left" height="400px" width="200px"></a>
+
+
+
+
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 
 It routes calls from the services:
