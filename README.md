@@ -8,9 +8,9 @@
 
 ### Title Bar
 
-<a href="url"><img src="./Pictures_and_Gifs/titleBar.png" align="left" height="300px" width="600px"></a>
-<br />
-### Aggregate Reviews
+1. <a href="url"><img src="./Pictures_and_Gifs/titleBar.png" align="left" height="300px" width="600px"></a>
+
+1. ### Aggregate Reviews
 
 1. ![aggregate reviews](https://drive.google.com/file/d/1W-_xKtkfPGb_MWfelkovudrerH13f6zc/view?usp=sharing)
 
