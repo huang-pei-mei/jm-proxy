@@ -8,7 +8,8 @@
 
 ### Title Bar
 
-1. ![title bar](./Pictures_and_Gifs/titleBar.png)
+<a href="url"><img src="./Pictures_and_Gifs/titleBar.png" align="left" height="200px" width="200px" ></a>
+
 
 
 ### Aggregate Reviews
