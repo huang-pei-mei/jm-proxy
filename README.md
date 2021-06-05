@@ -8,8 +8,7 @@
 
 ### Title Bar
 
-<a href="url"><img src="./Pictures_and_Gifs/titleBar.png" align="left" height="200px" width="200px" ></a>
-
+<a href="url"><img src="./Pictures_and_Gifs/titleBar.png" align="left" height="300px" width="600px"></a>
 
 
 ### Aggregate Reviews
