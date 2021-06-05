@@ -21,7 +21,12 @@
 #### Title Bar
 <br />
 <a href="url"><img src="Pictures_and_Gifs/phoneTitleBar.png" align="left" height="400px" width="200px">
+<a href="url"><img src="Pictures_and_Gifs/DeskTopTitle.png" align="center" height="400px" width="200px">
+
 <br /> <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+
+
 
 #### Aggregate Reviews
 <a href="url"><img src="Pictures_and_Gifs/aggregateReviewsPhoneView.png" align="left" height="400px" width="200px">
