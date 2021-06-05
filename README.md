@@ -22,7 +22,7 @@
 <br />
 <a href="url"><img src="Pictures_and_Gifs/phoneTitleBar.png" align="left" height="400px" width="200px">
 
-<a href="url"><img src="Pictures_and_Gifs/DeskTopTitle.png" align="center" height="300px" width="400px">
+<a href="url"><img src="Pictures_and_Gifs/DeskTopTitle.png" align="center" height="300px" width="350px">
 
 <a href="url"><img src="Pictures_and_Gifs/TitleBarGif.gif" align="right" height="350px" width="350px">
 
