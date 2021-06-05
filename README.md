@@ -24,7 +24,7 @@
 
 <a href="url"><img src="Pictures_and_Gifs/DeskTopTitle.png" align="center" height="300px" width="350px">
 
-<a href="url"><img src="Pictures_and_Gifs/TitleBarGif.gif" align="right" height="300px" width="300px">
+<a href="url"><img src="Pictures_and_Gifs/TitleBarGif.gif" align="right" float="right" height="300px" width="300px">
 
 <br /> <br /><br /><br /><br /><br /><br />
 
