@@ -8,15 +8,15 @@
 
 ### Title Bar
 
-1. <a href="url"><img src="./Pictures_and_Gifs/titleBar.png" align="left" height="300px" width="600px"></a>
+<a href="url"><img src="./Pictures_and_Gifs/titleBar.png" align="left" height="300px" width="600px"></a> <br /><br /><br />
 
-1. ### Aggregate Reviews
+### Aggregate Reviews
 
-1. ![aggregate reviews](https://drive.google.com/file/d/1W-_xKtkfPGb_MWfelkovudrerH13f6zc/view?usp=sharing)
+ ![aggregate reviews](https://drive.google.com/file/d/1W-_xKtkfPGb_MWfelkovudrerH13f6zc/view?usp=sharing)
 
-### Reviews
+###Reviews
 
-1. ![reviews](https://drive.google.com/file/d/1Gcml2SZ29dEA2V9QphfPpIQIk5ea32EC/view?usp=sharing)
+![reviews](https://drive.google.com/file/d/1Gcml2SZ29dEA2V9QphfPpIQIk5ea32EC/view?usp=sharing)
 
 Phone View:
 Phone View Title Bar:
