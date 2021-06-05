@@ -410,5 +410,6 @@ summary {
 @media (max-width: 960px) {
   #aggReview{
     margin: 0;
+    width: 90%;
   }
 }
