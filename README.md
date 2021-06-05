@@ -8,7 +8,7 @@
 
 ### Title Bar
 
-1. ![title bar](./Pictures_and_Gifs/titleBar.png)
+1. ![title bar](./Pictures_and_Gifs/titleBar.png =250x250)
 
 
 ### Aggregate Reviews
@@ -31,7 +31,7 @@ Phone View Reviews:
 
 Gifs of Page in Desktop View:
 Title Bar Gif:
-![giph of title with audio button](./Pictures_and_Gifs/AnimatedGIF-downsized(1).gif)
+![giph of title with audio button](./Pictures_and_Gifs/AnimatedGIF-downsized(1).gif =250x250)
 Title Bar Page:
 ![giph of scrolling on page desktop view] (https://media.giphy.com/media/uLHcWxOAYjxqMEhU7E/giphy.gif)
 Title Bar Reviews:
