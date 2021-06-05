@@ -5,10 +5,12 @@ https://media.giphy.com/media/e7Aj05bZYy4GRcxsEy/giphy.gif
 
 Screenshots of Page:
 
-Desktop View:
-Title Bar:
-![title bar](https://drive.google.com/file/d/1nk42PkqPFepTFOWgA3euSI22rftLa2Xo/view?usp=sharing)
-<img src="https://drive.google.com/file/d/1nk42PkqPFepTFOWgA3euSI22rftLa2Xo/view?usp=sharing" alt="My cool logo"/>
+Desktop View
+
+Title Bar
+
+! [title bar](https://drive.google.com/file/d/1nk42PkqPFepTFOWgA3euSI22rftLa2Xo/view?usp=sharing)
+
 
 Aggregate Reviews:
 ![aggregate reviews] (https://drive.google.com/file/d/1W-_xKtkfPGb_MWfelkovudrerH13f6zc/view?usp=sharing)
