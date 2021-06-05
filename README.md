@@ -34,7 +34,8 @@ Title Bar Reviews:
 Gifs of Page in Phone View:
 Title Bar Phone View Gif:
 ![giph of title and summary ] (https://media.giphy.com/media/7c96YgQhUeWWqbrDBe/giphy.gif)
-
+![giph of reviews options] (https://media.giphy.com/media/7raLc5HerSyLvqUuPG/giphy.gif)
+![] ()
 
 
 
