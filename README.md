@@ -8,7 +8,7 @@
 
 ### Title Bar
 
-1. ![title bar](https://drive.google.com/file/d/1nk42PkqPFepTFOWgA3euSI22rftLa2Xo/view?usp=sharing)
+1. ![title bar](./Pictures_and_Gifs/titleBar.png)
 
 ### Aggregate Reviews
 
