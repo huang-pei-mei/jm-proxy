@@ -8,7 +8,7 @@
 
 ### Title Bar
 
-<a href="url"><img src="./Pictures_and_Gifs/titleBar.png" align="left" height="300px" width="600px"></a> <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<a href="url"><img src="./Pictures_and_Gifs/titleBar.png" align="left" height="300px" width="500px"></a> <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 ### Aggregate Reviews
 
@@ -30,7 +30,9 @@ Phone View Reviews:
 
 Gifs of Page in Desktop View:
 Title Bar Gif:
-![giph of title with audio button](./Pictures_and_Gifs/AnimatedGIF-downsized(1).gif =250x250)
+<br />
+<a href="url"><img src="./Pictures_and_Gifs/AnimatedGIF-downsized(1).gif" align="left" height="300px" width="500px">
+<br />
 Title Bar Page:
 ![giph of scrolling on page desktop view] (https://media.giphy.com/media/uLHcWxOAYjxqMEhU7E/giphy.gif)
 Title Bar Reviews:
