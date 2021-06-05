@@ -1,21 +1,22 @@
 # Audible Product Page
-http://ec2-54-153-95-228.us-west-1.compute.amazonaws.com/books/2/
 
-https://media.giphy.com/media/e7Aj05bZYy4GRcxsEy/giphy.gif
+[public ip](http://ec2-54-153-95-228.us-west-1.compute.amazonaws.com/books/2/)
 
-Screenshots of Page:
+#### Screenshots of Page:
 
-Desktop View
+## Desktop View
 
-Title Bar
+### Title Bar
 
-! [title bar](https://drive.google.com/file/d/1nk42PkqPFepTFOWgA3euSI22rftLa2Xo/view?usp=sharing)
+1. ![title bar](https://drive.google.com/file/d/1nk42PkqPFepTFOWgA3euSI22rftLa2Xo/view?usp=sharing)
 
+### Aggregate Reviews
 
-Aggregate Reviews:
-![aggregate reviews] (https://drive.google.com/file/d/1W-_xKtkfPGb_MWfelkovudrerH13f6zc/view?usp=sharing)
-Reviews:
-![reviews] (https://drive.google.com/file/d/1Gcml2SZ29dEA2V9QphfPpIQIk5ea32EC/view?usp=sharing)
+1. ![aggregate reviews](https://drive.google.com/file/d/1W-_xKtkfPGb_MWfelkovudrerH13f6zc/view?usp=sharing)
+
+### Reviews
+
+1. ![reviews](https://drive.google.com/file/d/1Gcml2SZ29dEA2V9QphfPpIQIk5ea32EC/view?usp=sharing)
 
 Phone View:
 Phone View Title Bar:
