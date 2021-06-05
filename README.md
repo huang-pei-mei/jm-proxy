@@ -21,9 +21,12 @@
 #### Title Bar
 <br />
 <a href="url"><img src="Pictures_and_Gifs/phoneTitleBar.png" align="left" height="400px" width="200px">
-<a href="url"><img src="Pictures_and_Gifs/DeskTopTitle.png" align="center" height="400px" width="200px">
 
-<br /> <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<a href="url"><img src="Pictures_and_Gifs/DeskTopTitle.png" align="center" height="300px" width="500px">
+
+<a href="url"><img src="Pictures_and_Gifs/TitleBarGif.gif" align="right" height="500px" width="500px">
+
+<br /> <br /><br /><br /><br /><br /><br />
 
 
 
