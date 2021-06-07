@@ -50,6 +50,7 @@ Our page is a replica of Audible's product pages. It:
 ## Installation
 
 Clone the repository from github onto your local machine to make edits
+//page will not run locally because the service routes are directed to an EC2 instance
 
 Code is available to view on github at https://github.com/huang-pei-mei/jm-proxy
 
