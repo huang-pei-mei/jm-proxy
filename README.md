@@ -15,20 +15,20 @@ Our page is a replica of Audible's product pages. It:
 
 #### Title Bar
 <br />
-<a href="url"><img src="Pictures_and_Gifs/phoneTitleBar.png" align="left" height="400px" width="200px">
+<a href="url"><img src="Pictures_and_Gifs/phoneTitleBar.png" align="left" height="300px" width="150px">
 
-<a href="url"><img src="Pictures_and_Gifs/TitleBarGif.gif" align="right" float="right" height="350px" width="400px">
+<a href="url"><img src="Pictures_and_Gifs/DeskTopTitle.png" align="left" height="200px" width="250px">
 
-<a href="url"><img src="Pictures_and_Gifs/DeskTopTitle.png" align="center" height="300px" width="350px">
+<a href="url"><img src="Pictures_and_Gifs/TitleBarGif.gif" align="left" float="right" height="250px" width="300px">
 
-<br /> <br /><br /><br /><br />
+<br /> <br /><br /><br /><br /><br /> <br /><br /><br /><br /><br /> <br /><br /><br /><br />
 
 #### Aggregate Reviews
-<a href="url"><img src="Pictures_and_Gifs/aggregateReviewsPhoneView.png" align="left" height="400px" width="200px">
+<a href="url"><img src="Pictures_and_Gifs/aggregateReviewsPhoneView.png" align="left" height="300px" width="150px">
 
-<a href="url"><img src="Pictures_and_Gifs/desktopAggregateReviewsAndSumary.png" align="left" height="300px" width="350px">
+<a href="url"><img src="Pictures_and_Gifs/desktopAggregateReviewsAndSumary.png" align="left" height="200px" width="250px">
 
-<a href="url"><img src="Pictures_and_Gifs/aggregateReviewsDesktop.gif" align="right" height="350px" width="400px">
+<a href="url"><img src="Pictures_and_Gifs/aggregateReviewsDesktop.gif" align="left" height="250px" width="300px">
 
 
 <br /> <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
@@ -36,29 +36,30 @@ Our page is a replica of Audible's product pages. It:
 
 #### Reviews
 
-<a href="url"><img src="Pictures_and_Gifs/reviewsWithHeader.png" align="left" height="400px" width="200px"></a>
+<a href="url"><img src="Pictures_and_Gifs/reviewsWithHeader.png" align="left" height="300px" width="150px"></a>
 
-<a href="url"><img src="Pictures_and_Gifs/ReviewsDesktop.png" align="left" height="300px" width="350px"></a>
+<a href="url"><img src="Pictures_and_Gifs/ReviewsDesktop.png" align="left" height="200px" width="250px"></a>
 
-<a href="url"><img src="Pictures_and_Gifs/mediaReviews.gif" align="left" height="350px" width="400px"></a>
+<a href="url"><img src="Pictures_and_Gifs/mediaReviews.gif" align="left" height="250px" width="300px"></a>
 
 
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 
 ## Installation
 
 Clone the repository from github onto your local machine to make edits
+//page will not run locally with data because the service routes are directed to an EC2 instance
 
 Code is available to view on github at https://github.com/huang-pei-mei/jm-proxy
 
 ```bash
-git clone 'https://github.com/huang-pei-mei/jm-proxy.git'
+fork 'https://github.com/huang-pei-mei/jm-proxy'
+git clone /path/to/clone.git
 cd jm-proxy
 npm install
-npm run build
-node Server/Index.js
+npm run server
+
 ```
 
 ## Usage
