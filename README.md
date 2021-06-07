@@ -1,120 +1,78 @@
 # Audible Product Page
 
-[public ip](http://ec2-54-153-95-228.us-west-1.compute.amazonaws.com/books/2/)
+Our page is a replica of Audible's product pages. It:
 
-#### Screenshots of Page:
+* Has 100 books with information stored in different databases (Mysql  and Mongo)
 
-## Desktop View
+* Has book data that is always associated with a certain book id
 
-### Title Bar
+* Plays audio of the book when you click on the book cover icon
 
-<a href="url"><img src="./Pictures_and_Gifs/titleBar.png" align="left" height="300px" width="500px"></a> <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+* Is hosted on AWS EC2 instances and S3 buckets
 
-### Aggregate Reviews
 
- ![aggregate reviews](https://drive.google.com/file/d/1W-_xKtkfPGb_MWfelkovudrerH13f6zc/view?usp=sharing)
+## Product Page Live Demos and Screenshots Below
 
-### Reviews
-
-![reviews](https://drive.google.com/file/d/1Gcml2SZ29dEA2V9QphfPpIQIk5ea32EC/view?usp=sharing)
-
-Phone View:
-Phone View Title Bar:
-![media view] (https://drive.google.com/file/d/1Jqg6Vo4ZnrtEifza09-cc6b4sKuJuHZv/view?usp=sharing)
-Phone View aggregate Reviews:
-![aggregate Reviews] (https://drive.google.com/file/d/1_GUSGGxqTZBHGLyIGU61k9h83z8ZKbYE/view?usp=sharing)
-Phone View Reviews:
-![reviews] (https://drive.google.com/file/d/1pgPxPTY7m6z8epMRLhMWMlUrtDAr_MGm/view?usp=sharing)
-Phone View Reviews:
-![reviews show more button] (https://drive.google.com/file/d/1AccBtNXao5VYOf4CXzCmi5HckHtoy_k_/view?usp=sharing)
-
-Gifs of Page in Desktop View:
-Title Bar Gif:
+#### Title Bar
 <br />
-<a href="url"><img src="./Pictures_and_Gifs/AnimatedGIF-downsized(1).gif" align="left" height="300px" width="500px">
-<br />
-Title Bar Page:
-![giph of scrolling on page desktop view] (https://media.giphy.com/media/uLHcWxOAYjxqMEhU7E/giphy.gif)
-Title Bar Reviews:
-![giph of reviews options] (https://media.giphy.com/media/5NIkRcEejinVdsLu66/giphy.gif)
+<a href="url"><img src="Pictures_and_Gifs/phoneTitleBar.png" align="left" height="400px" width="200px">
 
-Gifs of Page in Phone View:
-Title Bar Phone View Gif:
-![giph of title and summary ] (https://media.giphy.com/media/7c96YgQhUeWWqbrDBe/giphy.gif)
-![giph of reviews options] (https://media.giphy.com/media/7raLc5HerSyLvqUuPG/giphy.gif)
-![] ()
+<a href="url"><img src="Pictures_and_Gifs/TitleBarGif.gif" align="right" float="right" height="350px" width="400px">
 
+<a href="url"><img src="Pictures_and_Gifs/DeskTopTitle.png" align="center" height="300px" width="350px">
 
+<br /> <br /><br /><br /><br />
 
+#### Aggregate Reviews
+<a href="url"><img src="Pictures_and_Gifs/aggregateReviewsPhoneView.png" align="left" height="400px" width="200px">
 
+<a href="url"><img src="Pictures_and_Gifs/desktopAggregateReviewsAndSumary.png" align="left" height="300px" width="350px">
 
-It routes calls from the services:
-1. Title Service
-1. Price Service
-1. Summary Service
-1. Aggregate Reviews Service
-1. Reviews Service
-
-* Requirements
-
-This project require node_modules which can be installed by running *npm install*.
-
-Dependencies
-    "@readme/markdown": "^6.27.1",
-    "axios": "^0.21.1",
-    "default": "^0.1.1",
-    "grunt": "^1.4.0",
-    "nodemon": "^2.0.7",
-    "path": "^0.12.7"
-
-Dev Depenencies
-    "grunt-aws": "^0.7.1",
-    "grunt-contrib-jshint": "^3.0.0",
-    "grunt-s3": "^0.2.0-alpha.3",
-    "request": "^2.88.2"
-
-Requires file 'grunt-aws.json' in root with format
-{
-  key: "<aws key>",
-  secret: "<secret aws key>",
-  bucket: "<name of s3 bucket>"
-}
+<a href="url"><img src="Pictures_and_Gifs/aggregateReviewsDesktop.gif" align="right" height="350px" width="400px">
 
 
-* Recommended modules
-* Installation
-* Configuration
-* Troubleshooting
-* FAQ
-* Maintainers
+<br /> <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 
-# Audible Product Page
+#### Reviews
 
-Foobar is a Python library for dealing with word pluralization.
+<a href="url"><img src="Pictures_and_Gifs/reviewsWithHeader.png" align="left" height="400px" width="200px"></a>
+
+<a href="url"><img src="Pictures_and_Gifs/ReviewsDesktop.png" align="left" height="300px" width="350px"></a>
+
+<a href="url"><img src="Pictures_and_Gifs/mediaReviews.gif" align="left" height="350px" width="400px"></a>
+
+
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Clone the repository from github onto your local machine to make edits
+
+Code is available to view on github at https://github.com/huang-pei-mei/jm-proxy
 
 ```bash
-pip install foobar
+git clone 'https://github.com/huang-pei-mei/jm-proxy.git'
+cd jm-proxy
+npm install
+npm run build
+node Server/Index.js
 ```
 
 ## Usage
 
-```python
-import foobar
+```javascript
 
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
+'http://54.153.95.228/books/10/'  returns product page for 'The Fellowship of the Ring by  J. R. R. Tolkien'
+
+'http://54.153.95.228/books/2/'  returns product page for 'My Own Words by Ruth Bader Ginsburg, Mary Hartnett, Wendy W. Williams'
+
 ```
 
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
+This page is not currently open for contributions
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+N/A
