@@ -21,7 +21,7 @@ Our page is a replica of Audible's product pages. It:
 
 <a href="url"><img src="Pictures_and_Gifs/TitleBarGif.gif" align="left" float="right" height="200px" width="250px">
 
-<br /> <br /><br /><br /><br />
+<br /> <br /><br /><br /><br /><br /> <br /><br /><br /><br /><br /> <br /><br /><br /><br />
 
 #### Aggregate Reviews
 <a href="url"><img src="Pictures_and_Gifs/aggregateReviewsPhoneView.png" align="left" height="300px" width="150px">
