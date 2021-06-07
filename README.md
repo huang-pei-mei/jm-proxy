@@ -19,7 +19,7 @@ Our page is a replica of Audible's product pages. It:
 
 <a href="url"><img src="Pictures_and_Gifs/DeskTopTitle.png" align="left" height="200px" width="250px">
 
-<a href="url"><img src="Pictures_and_Gifs/TitleBarGif.gif" align="left" float="right" height="200px" width="250px">
+<a href="url"><img src="Pictures_and_Gifs/TitleBarGif.gif" align="left" float="right" height="250px" width="300px">
 
 <br /> <br /><br /><br /><br /><br /> <br /><br /><br /><br /><br /> <br /><br /><br /><br />
 
@@ -28,7 +28,7 @@ Our page is a replica of Audible's product pages. It:
 
 <a href="url"><img src="Pictures_and_Gifs/desktopAggregateReviewsAndSumary.png" align="left" height="200px" width="250px">
 
-<a href="url"><img src="Pictures_and_Gifs/aggregateReviewsDesktop.gif" align="left" height="200px" width="250px">
+<a href="url"><img src="Pictures_and_Gifs/aggregateReviewsDesktop.gif" align="left" height="250px" width="300px">
 
 
 <br /> <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
@@ -40,7 +40,7 @@ Our page is a replica of Audible's product pages. It:
 
 <a href="url"><img src="Pictures_and_Gifs/ReviewsDesktop.png" align="left" height="200px" width="250px"></a>
 
-<a href="url"><img src="Pictures_and_Gifs/mediaReviews.gif" align="left" height="200px" width="250px"></a>
+<a href="url"><img src="Pictures_and_Gifs/mediaReviews.gif" align="left" height="250px" width="300px"></a>
 
 
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
