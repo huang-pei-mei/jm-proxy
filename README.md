@@ -2,16 +2,16 @@
 
 Our page is a replica of Audible's product pages. It:
 
-Has 100 books with information stored in different databases (Mysql and Mongo)
+* Has 100 books with information stored in different databases (Mysql  and Mongo)
 
-Has book data that is always associated with a certain book id
+* Has book data that is always associated with a certain book id
 
-Plays audio of the book when you click on the book cover icon
+* Plays audio of the book when you click on the book cover icon
 
-Is hosted on AWS EC2 instances and S3 buckets
+* Is hosted on AWS EC2 instances and S3 buckets
 
 
-Produce Page Live Demos and Screenshots
+Product Page Live Demos and Screenshots Below
 
 #### Title Bar
 <br />
@@ -43,42 +43,9 @@ Produce Page Live Demos and Screenshots
 <a href="url"><img src="Pictures_and_Gifs/mediaReviews.gif" align="left" height="350px" width="400px"></a>
 
 
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-
-
-It routes calls from the services:
-1. Title Service
-1. Price Service
-1. Summary Service
-1. Aggregate Reviews Service
-1. Reviews Service
-
-* Requirements
-
-This project require node_modules which can be installed by running *npm install*.
-
-Dependencies
-    "@readme/markdown": "^6.27.1",
-    "axios": "^0.21.1",
-    "default": "^0.1.1",
-    "grunt": "^1.4.0",
-    "nodemon": "^2.0.7",
-    "path": "^0.12.7"
-
-Dev Depenencies
-    "grunt-aws": "^0.7.1",
-    "grunt-contrib-jshint": "^3.0.0",
-    "grunt-s3": "^0.2.0-alpha.3",
-    "request": "^2.88.2"
-
-Requires file 'grunt-aws.json' in root with format
-{
-  key: "<aws key>",
-  secret: "<secret aws key>",
-  bucket: "<name of s3 bucket>"
-}
 
 ## Installation
 
@@ -92,8 +59,9 @@ pip install foobar
 
 ```javascript
 
-'http://54.153.95.228/books/12/'  returns product page for ...
-'http://54.153.95.228/books/10/'  returns product page for
+'http://54.153.95.228/books/10/'  returns product page for 'The Fellowship of the Ring by  J. R. R. Tolkien'
+
+'http://54.153.95.228/books/2/'  returns product page for 'My Own Words by Ruth Bader Ginsburg, Mary Hartnett, Wendy W. Williams'
 
 ```
 
