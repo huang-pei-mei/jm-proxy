@@ -15,20 +15,20 @@ Our page is a replica of Audible's product pages. It:
 
 #### Title Bar
 <br />
-<a href="url"><img src="Pictures_and_Gifs/phoneTitleBar.png" align="left" height="400px" width="200px">
+<a href="url"><img src="Pictures_and_Gifs/phoneTitleBar.png" align="left" height="300px" width="150px">
 
-<a href="url"><img src="Pictures_and_Gifs/TitleBarGif.gif" align="right" float="right" height="350px" width="400px">
+<a href="url"><img src="Pictures_and_Gifs/TitleBarGif.gif" align="right" float="right" height="150px" width="200px">
 
-<a href="url"><img src="Pictures_and_Gifs/DeskTopTitle.png" align="center" height="300px" width="350px">
+<a href="url"><img src="Pictures_and_Gifs/DeskTopTitle.png" align="center" height="150px" width="200px">
 
 <br /> <br /><br /><br /><br />
 
 #### Aggregate Reviews
-<a href="url"><img src="Pictures_and_Gifs/aggregateReviewsPhoneView.png" align="left" height="400px" width="200px">
+<a href="url"><img src="Pictures_and_Gifs/aggregateReviewsPhoneView.png" align="left" height="300px" width="150px">
 
-<a href="url"><img src="Pictures_and_Gifs/desktopAggregateReviewsAndSumary.png" align="left" height="300px" width="350px">
+<a href="url"><img src="Pictures_and_Gifs/desktopAggregateReviewsAndSumary.png" align="left" height="150px" width="200px">
 
-<a href="url"><img src="Pictures_and_Gifs/aggregateReviewsDesktop.gif" align="right" height="350px" width="400px">
+<a href="url"><img src="Pictures_and_Gifs/aggregateReviewsDesktop.gif" align="right" height="150px" width="200px">
 
 
 <br /> <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
@@ -36,11 +36,11 @@ Our page is a replica of Audible's product pages. It:
 
 #### Reviews
 
-<a href="url"><img src="Pictures_and_Gifs/reviewsWithHeader.png" align="left" height="400px" width="200px"></a>
+<a href="url"><img src="Pictures_and_Gifs/reviewsWithHeader.png" align="left" height="300px" width="150px"></a>
 
-<a href="url"><img src="Pictures_and_Gifs/ReviewsDesktop.png" align="left" height="300px" width="350px"></a>
+<a href="url"><img src="Pictures_and_Gifs/ReviewsDesktop.png" align="left" height="150px" width="200px"></a>
 
-<a href="url"><img src="Pictures_and_Gifs/mediaReviews.gif" align="left" height="350px" width="400px"></a>
+<a href="url"><img src="Pictures_and_Gifs/mediaReviews.gif" align="left" height="150px" width="200px"></a>
 
 
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
