@@ -19,7 +19,7 @@
 
 <a href="url"><img src="Pictures_and_Gifs/desktopAggregateReviewsAndSumary.png" align="left" height="350px" width="400px">
 
-<a href="url"><img src="Pictures_and_Gifs/aggregateReviewsDesktop.gif" align="left" height="350px" width="400px">
+<a href="url"><img src="Pictures_and_Gifs/aggregateReviewsDesktop.gif" align="right" height="350px" width="400px">
 
 
 <br /> <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
