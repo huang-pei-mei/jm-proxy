@@ -17,18 +17,18 @@ Our page is a replica of Audible's product pages. It:
 <br />
 <a href="url"><img src="Pictures_and_Gifs/phoneTitleBar.png" align="left" height="300px" width="150px">
 
-<a href="url"><img src="Pictures_and_Gifs/TitleBarGif.gif" align="right" float="right" height="150px" width="200px">
+<a href="url"><img src="Pictures_and_Gifs/DeskTopTitle.png" align="left" height="200px" width="250px">
 
-<a href="url"><img src="Pictures_and_Gifs/DeskTopTitle.png" align="center" height="150px" width="200px">
+<a href="url"><img src="Pictures_and_Gifs/TitleBarGif.gif" align="left" float="right" height="200px" width="250px">
 
 <br /> <br /><br /><br /><br />
 
 #### Aggregate Reviews
 <a href="url"><img src="Pictures_and_Gifs/aggregateReviewsPhoneView.png" align="left" height="300px" width="150px">
 
-<a href="url"><img src="Pictures_and_Gifs/desktopAggregateReviewsAndSumary.png" align="left" height="150px" width="200px">
+<a href="url"><img src="Pictures_and_Gifs/desktopAggregateReviewsAndSumary.png" align="left" height="200px" width="250px">
 
-<a href="url"><img src="Pictures_and_Gifs/aggregateReviewsDesktop.gif" align="right" height="150px" width="200px">
+<a href="url"><img src="Pictures_and_Gifs/aggregateReviewsDesktop.gif" align="left" height="200px" width="250px">
 
 
 <br /> <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
