@@ -38,9 +38,9 @@ Our page is a replica of Audible's product pages. It:
 
 <a href="url"><img src="Pictures_and_Gifs/reviewsWithHeader.png" align="left" height="300px" width="150px"></a>
 
-<a href="url"><img src="Pictures_and_Gifs/ReviewsDesktop.png" align="left" height="150px" width="200px"></a>
+<a href="url"><img src="Pictures_and_Gifs/ReviewsDesktop.png" align="left" height="200px" width="250px"></a>
 
-<a href="url"><img src="Pictures_and_Gifs/mediaReviews.gif" align="left" height="150px" width="200px"></a>
+<a href="url"><img src="Pictures_and_Gifs/mediaReviews.gif" align="left" height="200px" width="250px"></a>
 
 
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
