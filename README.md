@@ -11,7 +11,7 @@ Our page is a replica of Audible's product pages. It:
 * Is hosted on AWS EC2 instances and S3 buckets
 
 
-Product Page Live Demos and Screenshots Below
+## Product Page Live Demos and Screenshots Below
 
 #### Title Bar
 <br />
@@ -49,10 +49,15 @@ Product Page Live Demos and Screenshots Below
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Clone the repository from github onto your local machine to make edits
+
+Code is available to view on github at https://github.com/huang-pei-mei/jm-proxy
 
 ```bash
-pip install foobar
+git clone 'https://github.com/huang-pei-mei/jm-proxy.git'
+npm install
+npm run build
+node Server/Index.js
 ```
 
 ## Usage
