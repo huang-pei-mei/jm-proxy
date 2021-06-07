@@ -1,8 +1,17 @@
 # Audible Product Page
 
-[public ip](http://ec2-54-153-95-228.us-west-1.compute.amazonaws.com/books/2/)
+Our page is a replica of Audible's product pages. It:
+
+Has 100 books with information stored in different databases (Mysql and Mongo)
+
+Has book data that is always associated with a certain book id
+
+Plays audio of the book when you click on the book cover icon
+
+Is hosted on AWS EC2 instances and S3 buckets
 
 
+Produce Page Live Demos and Screenshots
 
 #### Title Bar
 <br />
@@ -36,7 +45,7 @@
 
 
 
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 
 It routes calls from the services:
@@ -71,19 +80,6 @@ Requires file 'grunt-aws.json' in root with format
   bucket: "<name of s3 bucket>"
 }
 
-
-* Recommended modules
-* Installation
-* Configuration
-* Troubleshooting
-* FAQ
-* Maintainers
-
-
-# Audible Product Page
-
-Foobar is a Python library for dealing with word pluralization.
-
 ## Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
@@ -94,18 +90,15 @@ pip install foobar
 
 ## Usage
 
-```python
-import foobar
+```javascript
 
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
+'http://54.153.95.228/books/12/'  returns product page for ...
+'http://54.153.95.228/books/10/'  returns product page for
+
 ```
 
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
+This page is not currently open for contributions
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+N/A
