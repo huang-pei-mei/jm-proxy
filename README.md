@@ -54,7 +54,8 @@ Clone the repository from github onto your local machine to make edits
 Code is available to view on github at https://github.com/huang-pei-mei/jm-proxy
 
 ```bash
-git clone 'https://github.com/huang-pei-mei/jm-proxy.git'
+fork 'https://github.com/huang-pei-mei/jm-proxy'
+git clone /path/to/clone.git
 cd jm-proxy
 npm install
 npm run server
