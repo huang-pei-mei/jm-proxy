@@ -55,6 +55,7 @@ Code is available to view on github at https://github.com/huang-pei-mei/jm-proxy
 
 ```bash
 git clone 'https://github.com/huang-pei-mei/jm-proxy.git'
+cd jm-proxy
 npm install
 npm run build
 node Server/Index.js
