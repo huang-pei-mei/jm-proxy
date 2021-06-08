@@ -38,7 +38,7 @@ app.get('/books/:id/api/price/', (req, res) => {
 });
 
 app.get('/books/:id/api/book', (req, res) => {
-  res.set({'Access-Control-Allow-Origin' :'*'});
+  res.set({"Cashe-Control": "max-age=25000", 'Access-Control-Allow-Origin' :'*'});
   axios.get(`http://13.57.14.144:2002/api/book/${req.params.id}`, {headers: req.headers})
   .then((response) => {
     res.status(202).json(response.data);
