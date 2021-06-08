@@ -5,6 +5,9 @@ const path = require('path');
 const axios = require('axios');
 const request = require('request');
 const AmpOptimizerMiddleware = require('@ampproject/toolbox-optimizer-express');
+var compression = require('compression')
+
+app.use('/books/:bookId', compression());
 
 app.use('/books/:bookId', AmpOptimizerMiddleware.create());
 
