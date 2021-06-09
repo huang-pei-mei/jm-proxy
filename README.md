@@ -1,14 +1,24 @@
-# Audible Product Page
+# Hack Reactor FEC Project - Audible Item Page
 
-Our page is a replica of Audible's product pages. It:
+Our page is a replica of Audible's product page. It:
 
-* Has 100 books with information stored in different databases (Mysql  and Mongo)
+* Has 100 books with information stored in different databases (Mysql and Mongo)
 
 * Has book data that is always associated with a certain book id
 
 * Plays audio of the book when you click on the book cover icon
 
 * Is hosted on AWS EC2 instances and S3 buckets
+
+* React
+
+* Node.js
+
+* Express
+
+* MongoDB
+
+* Worked on a team of 4 people over the course of 7 weeks to build this product. Each person was responsible for one to two services. I was responsible for the reviews service. Our github respository is https://github.com/huang-pei-mei
 
 
 ## Product Page Live Demos and Screenshots Below
@@ -48,10 +58,7 @@ Our page is a replica of Audible's product pages. It:
 
 ## Installation
 
-Clone the repository from github onto your local machine to make edits
-//page will not run locally with data because the service routes are directed to an EC2 instance
-
-Code is available to view on github at https://github.com/huang-pei-mei/jm-proxy
+* Code is available to view on github at https://github.com/huang-pei-mei/jm-proxy
 
 ```bash
 fork 'https://github.com/huang-pei-mei/jm-proxy'
