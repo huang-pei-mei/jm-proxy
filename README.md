@@ -8,7 +8,7 @@ Our page is a replica of Audible's product page. It:
 
 * Plays audio of the book when you click on the book cover icon
 
-* Is hosted on AWS EC2 instances and S3 buckets
+* Is hosted on AWS EC2 instances and used S3 buckets
 
 * React
 
