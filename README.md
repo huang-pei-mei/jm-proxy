@@ -18,6 +18,10 @@ Our page is a replica of Audible's product page. It:
 
 * MongoDB
 
+* axe DevTools for accessibility (aria roles, alt labels, focus states)
+
+* WCAG - Contrast checker 
+
 * Worked on a team of 4 people over the course of 7 weeks to build this product. Each person was responsible for one to two services. I was responsible for the reviews service. Our github respository is https://github.com/huang-pei-mei
 
 
