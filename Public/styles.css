@@ -419,3 +419,10 @@ summary {
 .also-enjoyed-title{
   color: black;
 }
+
+/* Focus state ============= */
+
+a:focus{
+  outline: 3px solid black;
+  outline-offset: 5px;
+}
