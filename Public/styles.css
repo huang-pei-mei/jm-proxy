@@ -422,7 +422,7 @@ summary {
 
 /* Focus state ============= */
 
-a:focus{
+/* a:focus{
   outline: 3px solid black;
   outline-offset: 5px;
-}
+} */
