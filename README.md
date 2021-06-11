@@ -32,6 +32,7 @@ Our page is a replica of Audible's product page. It:
 #### Title Bar
 Phone View
 <br />
+<br />
 <a href="url"><img src="Pictures_and_Gifs/phoneTitleBar.png" align="left" height="300px" width="150px">
 
 <a href="url"><img src="Pictures_and_Gifs/DeskTopTitle.png" align="left" height="200px" width="250px">
@@ -42,6 +43,7 @@ Phone View
 
 #### Aggregate Reviews
 Phone View
+<br />
 <br />
 <a href="url"><img src="Pictures_and_Gifs/aggregateReviewsPhoneView.png" align="left" height="300px" width="150px">
 
@@ -55,6 +57,7 @@ Phone View
 
 #### Reviews
 Phone View
+<br />
 <br />
 <a href="url"><img src="Pictures_and_Gifs/reviewsWithHeader.png" align="left" height="300px" width="150px"></a>
 
