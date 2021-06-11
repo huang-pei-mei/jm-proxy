@@ -30,7 +30,7 @@ Our page is a replica of Audible's product page. It:
 ## Product Page Live Demos and Screenshots Below
 
 #### Title Bar
-<span>Phone View</span>
+<span>Phone View Title &#9660;</span>
 <br />
 <br />
 <a href="url"><img src="Pictures_and_Gifs/phoneTitleBar.png" align="left" height="300px" width="150px">
@@ -42,7 +42,7 @@ Our page is a replica of Audible's product page. It:
 <br /> <br /><br /><br /><br /><br /> <br /><br /><br /><br /><br /> <br /><br /><br /><br />
 
 #### Aggregate Reviews
-<span>Phone View</span>
+<span>Phone View AggReviews &#9660;</span>
 <br />
 <br />
 <a href="url"><img src="Pictures_and_Gifs/aggregateReviewsPhoneView.png" align="left" height="300px" width="150px">
@@ -56,7 +56,7 @@ Our page is a replica of Audible's product page. It:
 
 
 #### Reviews
-<span>Phone View</span>
+<span>Phone View Reviews &#9660;</span>
 <br />
 <br />
 <a href="url"><img src="Pictures_and_Gifs/reviewsWithHeader.png" align="left" height="300px" width="150px"></a>
