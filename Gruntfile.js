@@ -36,6 +36,11 @@ module.exports = function (grunt) {
          cwd: "../FEC-Publishers-Summary/public",
          src: "**",
          dest: "Summary/"
+       },
+       AlsoEnjoyed: {
+        cwd: "../also-enjoyed-service/public",
+        src: "**",
+        dest: "alsoEnjoyed/"
        }
 
       // specificFiles: {

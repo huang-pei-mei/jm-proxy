@@ -1,41 +1,64 @@
-# Audible Product Page
+# Hack Reactor FEC Project - Audible Item Page
 
-Our page is a replica of Audible's product pages. It:
+Our page is a replica of Audible's product page. It:
 
-* Has 100 books with information stored in different databases (Mysql  and Mongo)
+* Has 100 books with information stored in different databases (Mysql and Mongo)
 
 * Has book data that is always associated with a certain book id
 
 * Plays audio of the book when you click on the book cover icon
 
-* Is hosted on AWS EC2 instances and S3 buckets
+* Is hosted on AWS EC2 instances and used S3 buckets
+
+* React
+
+* Node.js
+
+* Express
+
+* MongoDB
+
+* axe DevTools for accessibility (aria roles, alt labels, focus states)
+
+* WCAG - Contrast checker
+
+* mobile and desktop views are styled
+
+* Worked on a team of 4 people over the course of 7 weeks to build this product. Each person was responsible for one to two services. I was responsible for the reviews service. Our github respository is https://github.com/huang-pei-mei
 
 
 ## Product Page Live Demos and Screenshots Below
 
 #### Title Bar
+<span>Phone View &#9660;</span>
 <br />
-<a href="url"><img src="Pictures_and_Gifs/phoneTitleBar.png" align="left" height="300px" width="150px">
+<br />
+<a href="url"><img src="Pictures_and_Gifs/phoneTitleBar.png" align="left" height="300px" width="150px"></a>
 
-<a href="url"><img src="Pictures_and_Gifs/DeskTopTitle.png" align="left" height="200px" width="250px">
+<a href="url"><img src="Pictures_and_Gifs/DeskTopTitle.png" align="left" height="200px" width="250px"></a>
 
-<a href="url"><img src="Pictures_and_Gifs/TitleBarGif.gif" align="left" float="right" height="250px" width="300px">
+<a href="url"><img src="Pictures_and_Gifs/TitleBarGif.gif" align="left" float="right" height="250px" width="300px"></a>
 
 <br /> <br /><br /><br /><br /><br /> <br /><br /><br /><br /><br /> <br /><br /><br /><br />
 
 #### Aggregate Reviews
-<a href="url"><img src="Pictures_and_Gifs/aggregateReviewsPhoneView.png" align="left" height="300px" width="150px">
+<span>Phone View &#9660;</span>
+<br />
+<br />
+<a href="url"><img src="Pictures_and_Gifs/aggregateReviewsPhoneView.png" align="left" height="300px" width="150px"></a>
 
-<a href="url"><img src="Pictures_and_Gifs/desktopAggregateReviewsAndSumary.png" align="left" height="200px" width="250px">
+<a href="url"><img src="Pictures_and_Gifs/desktopAggregateReviewsAndSumary.png" align="left" height="200px" width="250px"></a>
 
-<a href="url"><img src="Pictures_and_Gifs/aggregateReviewsDesktop.gif" align="left" height="250px" width="300px">
+<a href="url"><img src="Pictures_and_Gifs/aggregateReviewsDesktop.gif" align="left" height="250px" width="300px"></a>
 
 
 <br /> <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 
 #### Reviews
-
+<span>Phone View &#9660;</span>
+<br />
+<br />
 <a href="url"><img src="Pictures_and_Gifs/reviewsWithHeader.png" align="left" height="300px" width="150px"></a>
 
 <a href="url"><img src="Pictures_and_Gifs/ReviewsDesktop.png" align="left" height="200px" width="250px"></a>
@@ -48,10 +71,7 @@ Our page is a replica of Audible's product pages. It:
 
 ## Installation
 
-Clone the repository from github onto your local machine to make edits
-//page will not run locally with data because the service routes are directed to an EC2 instance
-
-Code is available to view on github at https://github.com/huang-pei-mei/jm-proxy
+* Code is available to view on github at https://github.com/huang-pei-mei/jm-proxy
 
 ```bash
 fork 'https://github.com/huang-pei-mei/jm-proxy'
