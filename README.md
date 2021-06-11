@@ -68,7 +68,7 @@ Our page is a replica of Audible's product page. It:
 
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
-#### Accessibility Focus State
+#### Accessibility Focus State (added carousel)
 
 <a href="url"><img src="Pictures_and_Gifs/accessibility.gif" align="left" height="350px" width="450px"></a>
 
