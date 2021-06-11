@@ -30,33 +30,33 @@ Our page is a replica of Audible's product page. It:
 ## Product Page Live Demos and Screenshots Below
 
 #### Title Bar
-<span>Phone View Title &#9660;</span>
+<span>Phone View &#9660;</span>
 <br />
 <br />
-<a href="url"><img src="Pictures_and_Gifs/phoneTitleBar.png" align="left" height="300px" width="150px">
+<a href="url"><img src="Pictures_and_Gifs/phoneTitleBar.png" align="left" height="300px" width="150px"></a>
 
-<a href="url"><img src="Pictures_and_Gifs/DeskTopTitle.png" align="left" height="200px" width="250px">
+<a href="url"><img src="Pictures_and_Gifs/DeskTopTitle.png" align="left" height="200px" width="250px"></a>
 
-<a href="url"><img src="Pictures_and_Gifs/TitleBarGif.gif" align="left" float="right" height="250px" width="300px">
+<a href="url"><img src="Pictures_and_Gifs/TitleBarGif.gif" align="left" float="right" height="250px" width="300px"></a>
 
 <br /> <br /><br /><br /><br /><br /> <br /><br /><br /><br /><br /> <br /><br /><br /><br />
 
 #### Aggregate Reviews
-<span>Phone View AggReviews &#9660;</span>
+<span>Phone View &#9660;</span>
 <br />
 <br />
-<a href="url"><img src="Pictures_and_Gifs/aggregateReviewsPhoneView.png" align="left" height="300px" width="150px">
+<a href="url"><img src="Pictures_and_Gifs/aggregateReviewsPhoneView.png" align="left" height="300px" width="150px"></a>
 
-<a href="url"><img src="Pictures_and_Gifs/desktopAggregateReviewsAndSumary.png" align="left" height="200px" width="250px">
+<a href="url"><img src="Pictures_and_Gifs/desktopAggregateReviewsAndSumary.png" align="left" height="200px" width="250px"></a>
 
-<a href="url"><img src="Pictures_and_Gifs/aggregateReviewsDesktop.gif" align="left" height="250px" width="300px">
+<a href="url"><img src="Pictures_and_Gifs/aggregateReviewsDesktop.gif" align="left" height="250px" width="300px"></a>
 
 
 <br /> <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 
 #### Reviews
-<span>Phone View Reviews &#9660;</span>
+<span>Phone View &#9660;</span>
 <br />
 <br />
 <a href="url"><img src="Pictures_and_Gifs/reviewsWithHeader.png" align="left" height="300px" width="150px"></a>
