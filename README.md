@@ -20,7 +20,9 @@ Our page is a replica of Audible's product page. It:
 
 * axe DevTools for accessibility (aria roles, alt labels, focus states)
 
-* WCAG - Contrast checker 
+* WCAG - Contrast checker
+
+* mobile and desktop views are styled
 
 * Worked on a team of 4 people over the course of 7 weeks to build this product. Each person was responsible for one to two services. I was responsible for the reviews service. Our github respository is https://github.com/huang-pei-mei
 
@@ -28,6 +30,7 @@ Our page is a replica of Audible's product page. It:
 ## Product Page Live Demos and Screenshots Below
 
 #### Title Bar
+Phone View
 <br />
 <a href="url"><img src="Pictures_and_Gifs/phoneTitleBar.png" align="left" height="300px" width="150px">
 
@@ -38,6 +41,8 @@ Our page is a replica of Audible's product page. It:
 <br /> <br /><br /><br /><br /><br /> <br /><br /><br /><br /><br /> <br /><br /><br /><br />
 
 #### Aggregate Reviews
+Phone View
+<br />
 <a href="url"><img src="Pictures_and_Gifs/aggregateReviewsPhoneView.png" align="left" height="300px" width="150px">
 
 <a href="url"><img src="Pictures_and_Gifs/desktopAggregateReviewsAndSumary.png" align="left" height="200px" width="250px">
@@ -49,7 +54,8 @@ Our page is a replica of Audible's product page. It:
 
 
 #### Reviews
-
+Phone View
+<br />
 <a href="url"><img src="Pictures_and_Gifs/reviewsWithHeader.png" align="left" height="300px" width="150px"></a>
 
 <a href="url"><img src="Pictures_and_Gifs/ReviewsDesktop.png" align="left" height="200px" width="250px"></a>
