@@ -66,7 +66,15 @@ Our page is a replica of Audible's product page. It:
 <a href="url"><img src="Pictures_and_Gifs/mediaReviews.gif" align="left" height="250px" width="300px"></a>
 
 
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+#### Accessibility Focus State (added carousel)
+
+<a href="url"><img src="Pictures_and_Gifs/accessibility.gif" align="left" height="350px" width="450px"></a>
+
+
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
 
 
 ## Installation
