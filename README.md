@@ -1,7 +1,7 @@
 # Huang-Pei-Mei
 
 #### Title Bar
-<span>Phone View &#9660;</span>
+<span>Phone View &#9660; </span>
 <br />
 <br />
 <a href="url"><img src="Pictures_and_Gifs/phoneTitleBar.png" align="left" height="300px" width="150px"></a>
