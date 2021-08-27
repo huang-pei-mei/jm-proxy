@@ -32,6 +32,7 @@
     "grunt-aws": "^0.7.1",
     "grunt-contrib-jshint": "^3.0.0",
     "grunt-s3": "^0.2.0-alpha.3",
+    "mysql-db-seed": "^0.0.4",
     "request": "^2.88.2"
   }
 }
