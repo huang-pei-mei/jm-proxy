@@ -46,6 +46,11 @@
 
 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
+### Tested with Jest and Enzyme
+### React Frontend
+### MongoDB Database
+### Node.js/Express backend 
+### Deployed on EC2 and S3
 
 
 ## Installation
